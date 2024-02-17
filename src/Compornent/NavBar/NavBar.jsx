@@ -20,7 +20,7 @@ const NavBar = () => {
                     <input type="text" placeholder="Search" />
                 </div>
             </div>
-            <div className="nav-right flex-dev">
+            <div className="nav-right flex-dev" >
                 <img src={upload_icon} alt="" />
                 <img src={more_icon} alt="" />
                 <img src={notification_icon} alt="" />
