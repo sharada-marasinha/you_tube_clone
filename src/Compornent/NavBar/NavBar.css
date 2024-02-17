@@ -7,9 +7,8 @@ nav {
     z-index:10
     
   }
-  .nav-right{
-    position: relative;
-    left: 80%;
+  .flax-dev{
+    display: flex;
   }
   .nav-right img {
     width:25px;
