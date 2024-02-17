@@ -19,8 +19,55 @@ import cameron from '../../assets/cameron.png'
 
 const SideBar =() =>{
   return(
-    <div>
-      
+    <div className='sidebar'>
+      <div className="shortcut-links">
+        <div className="side-link">
+            <img src={home} alt="" /><p>Home</p>
+        </div>
+        <div className="side-link">
+            <img src={game_icon} alt="" /><p>Gaming</p>
+        </div>
+        <div className="side-link">
+            <img src={automobiles} alt="" /><p>Automobiles</p>
+        </div>
+        <div className="side-link">
+            <img src={sports} alt="" /><p>Sports</p>
+        </div>
+        <div className="side-link">
+            <img src={entertainment} alt="" /><p>Entertainment</p>
+        </div>
+        <div className="side-link">
+            <img src={tech} alt="" /><p>Technology</p>
+        </div>
+        <div className="side-link">
+            <img src={music} alt="" /><p>Music</p>
+        </div>
+        <div className="side-link">
+            <img src={blogs} alt="" /><p>Blogs</p>
+        </div>
+        <div className="side-link">
+            <img src={news} alt="" /><p>News</p>
+        </div>
+        <hr />
+      </div>
+      <div className="subscribe-list">
+        <h3>Subscribe</h3>
+        <div className="side-link">
+            <img src={jack} alt="" /><p>PewDify</p>
+        </div>
+        <div className="side-link">
+            <img src={simon} alt="" /><p>MrBeast</p>
+        </div>
+        <div className="side-link">
+            <img src={tom} alt="" /><p>Justing beber</p>
+        </div>
+        <div className="side-link">
+            <img src={megan} alt="" /><p>Saman</p>
+        </div>
+        <div className="side-link">
+            <img src={cameron} alt="" /><p>Kamal</p>
+        </div>
+      </div>
     </div>
   )
 }
