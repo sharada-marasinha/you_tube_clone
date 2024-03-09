@@ -1,11 +1,12 @@
 import React from "react";
 import './Home.css';
-import SideBar from "../../Compornent/SideBar/SideBar.jsx";
+// import SideBar from "../../Compornent/SideBar/SideBar.jsx";
 
 const Home =({sideBar}) =>{
   return(
     <>
-    <SideBar sideBar={sideBar}/>
+    <div>Hello</div>
+    {/* <SideBar sideBar={sideBar}/> */}
     </>
   )
 }
